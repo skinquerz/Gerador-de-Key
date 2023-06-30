@@ -4,10 +4,9 @@ lower = "abcdefghijklmnopqrstuvwxyz"
 upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 numbers = "0123456789"
 symbols = "[]{}()*;/,_-"
-special="📖🤖👽👾✨🌌♾️🗿🎃👻"
 
 
-all = lower + upper + numbers +symbols +special
+all = lower + upper + numbers +symbols
 length = int(input("numero de carctares? "))
 password = "".join(random.sample(all,length))
 
