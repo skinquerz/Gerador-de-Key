@@ -7,7 +7,6 @@ symbols = "[]{}()*;/,_-"
 
 
 all = lower + upper + numbers +symbols
-length = int(input("numero de carctares? "))
+length = int(input('qual a quantidade de caracteres? '))
 password = "".join(random.sample(all,length))
-
-print("sua senha random é:",password)
+print(f'sua senha random é:{password}')
